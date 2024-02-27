@@ -21,6 +21,7 @@ public class Main {
             
             switch (option) {
                 case 1:
+                    //CRIAR USUÁRIO
                     Usuario user = new Usuario();
                     user.criarUsuario(scanner);
 

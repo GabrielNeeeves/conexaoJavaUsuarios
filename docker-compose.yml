@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  usuarios:
+    container_name: usuariosDB
+    image: postgres
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=rootadmin
+      - POSTGRES_DB=usuariosDB
